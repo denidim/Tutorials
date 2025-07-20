@@ -12,6 +12,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
   grid-template-rows: 60px 0.5fr 1fr 1fr 60px;
+  gap: 5px;
   grid-template-areas:
     "nav nav nav nav aside"
     "header header header header aside"
@@ -49,5 +50,5 @@ footer {
   background: rgb(84, 84, 84);
   text-align: center;
   color: #fff;
-  margin: 2px;
+  /* margin: 3px; */
 }

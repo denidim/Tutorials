@@ -174,14 +174,16 @@ li a:hover {
 
 /* Products Start */
 .products {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .title-three {
   font-size: 3rem;
   color: #fff;
   font-family: var(--font-family);
-  margin: 10rem 10rem 2rem 10rem;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  margin-left: 10rem;
 }
 
 .cards {
@@ -206,15 +208,42 @@ li a:hover {
   margin-bottom: 4rem;
 }
 
-.card img {
+.card-img {
   width: 100px;
   height: 100px;
   position: absolute;
   top: -60px;
 }
 
-.card-img-one {
+.first-image {
   background: url(images/1.png);
   background-position: center;
   background-size: cover;
 }
+
+.second-image {
+  background: url(images/2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.third-image {
+  background: url(images/3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-title {
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.card .items p {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+/* Products End */

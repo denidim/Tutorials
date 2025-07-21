@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s {
+  background-color: red;
+  border: 2px solid black;
+  width: calc(100px + 20%);
+  height: calc(100px - 50px);
+  padding: calc(200px / 10);
+  margin: calc(10px * 5);
+}

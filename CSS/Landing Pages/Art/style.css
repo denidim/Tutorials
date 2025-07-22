@@ -1,0 +1,83 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap");
+
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebeae9;
+  margin: 1rem;
+}
+
+html {
+  font-family: var(--font-family);
+}
+
+/* Nav Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  background-color: var(--main-color);
+}
+
+nav ul {
+  margin-left: 5rem;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav .burger {
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+nav .burger span {
+  height: 4px;
+  border: 2px solid black;
+  margin: 4px;
+  background: #000;
+}
+/* Nav End */
+
+/* Header Start */
+header {
+  margin: 6rem;
+}
+
+.main-heading {
+  width: 50%;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.primary-heading {
+  width: 50%;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.bg-gray {
+  color: white;
+  padding: 2px 10px;
+  background-color: rgb(164, 151, 134);
+}
+/* Header End */

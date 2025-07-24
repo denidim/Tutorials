@@ -230,7 +230,58 @@ header {
 }
 /* Product-Section-End */
 
-/* Custumer-Reviews-Start */
-.custumer-heading {
+/* Customer-Reviews-Start */
+.customers-reviews {
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
 }
-/* Custumer-Reviews-End */
+
+.customer {
+  text-align: center;
+}
+
+.customers-heading {
+  font-family: var(--primary-font);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.customers-reviews .customer-description {
+  font-size: 12px;
+  margin-top: 20px;
+  max-width: 200px;
+  text-align: center;
+  margin: 10px;
+  font-family: var(--primary-font);
+}
+
+.customer .customer-img .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 7px 5px 2px #bcbaba;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto 20px;
+}
+
+.customer .img-one {
+  background: url(images/yogendra-singh-uWs_N5Dlyiw-unsplash.jpg);
+}
+
+.customer .img-two {
+  background: url(images/milan-popovic-kOnmHdLJTNI-unsplash.jpg);
+}
+
+.customer .img-three {
+  background: url(images/alireza-esmaeeli-BGSZ1t80rpM-unsplash.jpg);
+}
+
+/* Customer-Reviews-End */

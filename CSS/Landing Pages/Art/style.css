@@ -181,6 +181,10 @@ footer .about-company .container {
 
 /* Responsivnes */
 @media screen and (max-width: 768px) {
+  main .img {
+    width: 80%;
+  }
+
   header .main-heading {
     width: 100%;
   }
@@ -203,6 +207,18 @@ footer .about-company .container {
 
   .section-three img {
     width: 80%;
+    height: auto; /* Maintain aspect ratio */
     margin: 0;
+  }
+
+  footer .about-company .container ul {
+    list-style: none;
+  }
+
+  footer .about-company .container a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    line-height: 25px;
   }
 }

@@ -23,3 +23,45 @@ html {
 body {
   background-color: #f6eede;
 }
+
+/* Nav-Start */
+nav {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.logo {
+  border: 1px solid red;
+  width: 5%;
+  height: 60%;
+  margin-left: 1.5rem;
+  background-image: url(images/alien-svgrepo-com.svg);
+  /* background-size: cover; */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.burger {
+  height: 100%;
+  width: 5rem;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.burger span {
+  width: 50%;
+  height: 2px;
+  background-color: black;
+}
+/* Nav-End */

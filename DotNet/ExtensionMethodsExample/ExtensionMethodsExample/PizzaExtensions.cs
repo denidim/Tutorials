@@ -20,5 +20,11 @@ namespace ExtensionMethodsExample
 
             return pizza;
         }
+
+        public static Pizza ConfigureDelivery(this Pizza pizza, Action<Pizza> configAction)
+        {
+            configAction(pizza);
+            return pizza;
+        }
     }
 }

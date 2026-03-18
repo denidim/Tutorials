@@ -9,6 +9,11 @@ namespace ExtensionMethodsExample
     internal class Pizza
     {
         public List<string> Toppings { get; set; } = new List<string>();
-        public void ShowToppings() => Console.WriteLine($"Your Pizza has: {string.Join(", ", Toppings)}");
+        public string Address { get; set; } = "Pickup"; // Default
+        public void ShowToppings() 
+        {
+            Console.WriteLine($"Address: {Address}");
+            Console.WriteLine($"Your Pizza has: {string.Join(", ", Toppings)}");
+        } 
     }
 }
